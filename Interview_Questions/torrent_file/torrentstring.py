@@ -1,7 +1,7 @@
 try:
     from cStringIO import StringIO # Better option if available
 except:
-    fromt StringIO import StringIO
+    from StringIO import StringIO
 import string
 from bencode import Bencode_Static
 from errorhandler import ParsingError
